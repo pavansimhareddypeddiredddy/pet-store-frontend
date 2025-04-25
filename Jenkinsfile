@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('stage1') {
             steps {
-               git branch: 'main', url:'gh repo clone pavansimhareddypeddiredddy/pet-store-frontend'
+               git branch: 'main', url:'https://github.com/pavansimhareddypeddiredddy/pet-store-frontend.git'
             }
         }
 
