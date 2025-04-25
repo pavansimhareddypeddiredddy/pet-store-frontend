@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart | Paw Paradise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <h1>Paw Paradise 🐾</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html" class="active">Cart</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items" class="cart-items">
+      <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="total-price">
+      <p>Total: ₹<span id="total-price">0.00</span></p>
+      <button id="checkout" class="checkout-button">Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Paw Paradise. Made with ❤️ for pets.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
